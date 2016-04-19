@@ -109,6 +109,11 @@
   <project name="android_hardware_qcom_media" path="hardware/qcom/media/default" remote="cm" />
 <!-- END CYANOGENMOD -->
 
+<!-- BEGIN SLIM -->
+<project path="hardware/cyanogen" name="SlimRoms/hardware_cyanogen" remote="github" revision="mm6.0" />
+<project path="frameworks/opt/hardware" name="SlimRoms/frameworks_opt_hardware" remote="github" revision="mm6.0" />
+<!-- END SLIM -->
+
 <!-- BEGIN CODEAURORA -->
   <project groups="pdk-cw-fs" name="device/common"/>
   <project groups="device,fugu,pdk-fs" name="device/google/atv"/>
